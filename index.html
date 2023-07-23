@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Festim Braha Portfolio">
+    
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    <title>Festim Braha - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-nav">
+        <div class="nav-logo">
+          <h1>&lt;/&gt;	</h1>
+        </div>
+
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        ></button>
+
+        <ul id="primary-nav" class="primary-nav" data-visible="false">
+          <li>
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-container">
+          <div class="hero-text-container" data-aos="fade-up">
+            <p>console.log("Hello World!");</p>
+            <h2>I am Festim Braha, a software developer</h2>
+            <br>
+            <a style="color: white; text-decoration: underline; font-family: VT323; font-size: 24px;" 
+            href="https://github.com/festimbraha" target="_blank"><img
+            class="contact-icons"
+            src="./assets/icons/git.svg"
+            alt="Git-icon"
+          />   Festim Braha - GitHub .</a>
+          </div>
+          <a href="./assets/FESTIM_BRAHA_CV.pdf" class="hero-button" data-aos="fade-up" target="_blank">Festim Braha CV</a>
+          
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section-highlight" data-aos="fade-up">ABOUT</div>
+        <div class="about-container" data-aos="fade-up">
+          <div class="about-card">
+            <section class="about-content">
+              <h2>> About</h2>
+              <!-- About template -->
+              <p>
+                Festim Braha | Computer Engineering Graduate | Software Developer
+              </p>
+
+              <p>Since beginning my journey as a freelance developer for over a year, I've worked remotely 
+                for agencies and companies, consulted for startups, and collaborated with talented people 
+                to create digital products for business and consumer use.
+              </p>
+            </section>
+
+            <section class="about-content tech-stack-section">
+              <h3>My current tech stack</h3>
+              <div class="tech-stack-grid">
+                <div class="tech-stack">
+                  <img src="./assets/icons/html5.svg" alt="html5-icon" />
+                </div>
+
+                <div class="tech-stack">
+                  <img src="./assets/icons/css.svg" alt="html5-icon" />
+                </div>
+
+                <div class="tech-stack">
+                  <img src="./assets/icons/javascript.svg" alt="html5-icon" />
+                </div>
+
+                <div class="tech-stack">
+                  <img src="./assets/icons/react.svg" alt="html5-icon" />
+                </div>
+                <div class="tech-stack">
+                  <img src="./assets/icons/java.svg" alt="html5-icon" width="50px"/>
+                </div>
+                <div class="tech-stack">
+                  <img src="./assets/icons/php.svg" alt="html5-icon" width="50px"/>
+                </div>
+                <div class="tech-stack">
+                  <img src="./assets/icons/bootstrap.svg" alt="html5-icon" width="50px"/>
+                </div>
+                <div class="tech-stack">
+                  <img src="./assets/icons/jquery-horizontal.svg" alt="html5-icon" width="60px"/>
+                </div>
+                <div class="tech-stack">
+                  <img src="./assets/icons/github-icon.svg" alt="html5-icon" width="40px"/>
+                </div>
+                <div class="tech-stack">
+                  <img src="./assets/icons/mysql-official.svg" alt="html5-icon" width="50px"/>
+                </div>
+              
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="section-highlight" data-aos="fade-up">Portfolio</div>
+        <div class="portfolio-container" data-aos="fade-up">
+          <div class="portfolio-card">
+            <div class="portfolio-content">
+              <h2>> Portfolio</h2>
+
+              <!-- input projects inside project container -->
+              <div class="project-container">
+                <section class="project-card">
+                  <a href="https://kbbtrepca.tk/" target="_blank"><img
+                    class="project-img"
+                    src="./assets/images/trepca.png"
+                    alt="project-1"
+                  />
+                </a>
+                  <h3>KBB Trepça</h3>
+                  <h5>Project description</h5>
+                  <p>
+                    Website: HTML, CSS, JavaScript and jQuery.
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="https://kbbtrepca.tk/" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/live-demo.svg"
+                        alt="live-demo"
+                      />
+                      Live demo
+                    </a>
+                    <a href="https://github.com/festimbraha/Gym_Project" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+
+                <section class="project-card">
+                  <a href="https://healthyomnifood-project.netlify.app/" target="_blank"><img
+                    class="project-img"
+                    src="./assets/images/food-company.png"
+                    alt="project-1"
+                  />
+                  </a>
+                  <h3>Omni Food</h3>
+                  <h5>Project description</h5>
+                  <p>
+                    Web application: HTML, CSS, and JavaScript.
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="https://healthyomnifood-project.netlify.app/" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/live-demo.svg"
+                        alt="live-demo"
+                      />
+                      Live demo
+                    </a>
+                    <a href="https://github.com/festimbraha/Healthy_Food_Company_Project" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+
+                <section class="project-card">
+                  <a href="https://github.com/festimbraha/forkify_javascript_course_project" target="_blank"><img
+                    class="project-img"
+                    src="./assets/images/forkify.png"
+                    alt="project-1"
+                  />
+                  </a>
+                  <h3>forkify</h3>
+                  <h5>Part of JavaScript Course</h5>
+                  <p>
+                    Web application: HTML, SCSS, and JavaScript.
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="https://github.com/festimbraha/forkify_javascript_course_project" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+
+                
+                <section class="project-card">
+                  <a href="https://github.com/festimbraha/Mapty-JavaScript-Course-Project" target="_blank"><img
+                    class="project-img"
+                    src="./assets/images/mapty.png"
+                    alt="project-1"
+                  />
+                  </a>
+                  <h3>Mapty</h3>
+                  <h5>Part of JavaScript Course</h5>
+                  <p>
+                    Web application: HTML, CSS, and JavaScript.
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="https://github.com/festimbraha/Mapty-JavaScript-Course-Project" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+
+
+                <section class="project-card">
+                  <a href="https://github.com/festimbraha/PHP_Gr21" target="_blank"><img
+                    class="project-img"
+                    src="./assets/images/php.png"
+                    alt="project-1"
+                  />
+                  </a>
+                  <h3>FIEK Portal Project</h3>
+                  <h5>Project description</h5>
+                  <p>
+                    Web application: PHP and MySQL.
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="https://github.com/festimbraha/PHP_Gr21" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+                <section class="project-card">
+                  <a href="https://github.com/festimbraha/KNK20_21_Gr5" target="_blank"><img
+                    class="project-img"
+                    src="./assets/images/login.jpg"
+                    alt="project-1"
+                  /></a>
+                  <h3>Schedule Management System.</h3>
+                  <h5>Project description</h5>
+                  <p>
+                    GUI application: Java, JavaFx and MySQL 
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="https://github.com/festimbraha/KNK20_21_Gr5" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+
+
+                <section class="project-card">
+                  <a href="https://github.com/festimbraha/SSH-Gr2" target="_blank"><img
+                    class="project-img"
+                    src="./assets/images/java.png"
+                    alt="project-1"
+                  /></a>
+                  <h3>Chat Project</h3>
+                  <h5>Project description</h5>
+                  <p>
+                    GUI application: Java, JavaFx, NodeJS and MySQL
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="https://github.com/festimbraha/SSH-Gr2" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+
+
+                <section class="project-card">
+                  <a href="https://techcompany-website.netlify.app/" target="_blank"><img
+                    class="project-img"
+                    src="./assets/images/tech.png"
+                    alt="project-1"
+                  />
+                </a>
+                  <h3>Tech Company Theme</h3>
+                  <h5>Project description</h5>
+                  <p>
+                    Website: HTML, CSS, Bootstrap, and JavaScript.
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="https://techcompany-website.netlify.app/" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/live-demo.svg"
+                        alt="live-demo"
+                      />
+                      Live demo
+                    </a>
+                  </div>
+                </section>
+
+
+  
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="section-highlight" data-aos="fade-up">Contacts</h2>
+        <div class="contact-container" data-aos="fade-up">
+          <div class="contact-card">
+            <h2>> Contacts</h2>
+            <p>Thank you for visiting my portfolio! If you have any questions or would like to discuss potential 
+              collaborations, feel free to get in touch.
+               You can reach me through the following channels:</p>
+
+
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/festim-braha-672471187/" target="_blank">
+                <img
+                  class="contact-icons"
+                  src="./assets/icons/linkedin.svg"
+                  alt="linkedin-icon"
+                />
+                LinkedIn
+              </a>
+
+
+              <a href="https://www.facebook.com/festim.braha.16/" target="_blank">
+                <img
+                  class="contact-icons"
+                  src="./assets/icons/facebook.svg"
+                  alt="linkedin-icon"
+                />
+                Facebook
+              </a>
+              <a href="https://github.com/festimbraha" target="_blank">
+                <img
+                  class="contact-icons"
+                  src="./assets/icons/github-icon.svg"
+                  alt="linkedin-icon"
+                />
+                GitHub
+              </a>
+              <a href="https://www.instagram.com/festimbraha/" target="_blank">
+                <img
+                  class="contact-icons"
+                  src="./assets/icons/instagram.svg"
+                  alt="linkedin-icon"
+                />
+                Instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        Thank you!
+      </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>       
+      AOS.init({
+        once: true,
+        delay: 0
+      });
+    </script>
+  </body>
+</html>
